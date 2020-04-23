@@ -1,22 +1,4 @@
-## ChatBot
 
-This is a Hack day project done on Apr(22nd and 23rd) 2020.
-
-## Goal - Prototype chat bot experience
-
-- Have Chat-button on bottom right corner of the App which can launch chat window.
-- Chat button should exist in the same position when user navigates between pages.
-- Chat button should launch chat window which will have capability to connect with salesforce liveagent.
-- Chat Window stays on the app when user switches between pages.
-- Chat window should be draggable and allow user to view what is behind the window.
-
-## Point of contact
-
-- If you have any questions please contact
-  - UX - Sulekha - sulekha.kuthiala@hpe.com
-  - UI developer - Yugandhar - yugandhar.pathi@hpe.com
-  - Salesforce developer - Abdul - abdul.khader@hpe.com
-  - Managers - huichen.lee@hpe.com , tony.raj@hpe.com, craig.munson@hpe.com
 
 ### Technical details
 
