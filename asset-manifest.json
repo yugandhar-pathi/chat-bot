@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/nimble/chat-bot/static/js/main.99588357.chunk.js",
-    "main.js.map": "/nimble/chat-bot/static/js/main.99588357.chunk.js.map",
-    "runtime-main.js": "/nimble/chat-bot/static/js/runtime-main.37c66366.js",
-    "runtime-main.js.map": "/nimble/chat-bot/static/js/runtime-main.37c66366.js.map",
-    "static/js/2.7915f177.chunk.js": "/nimble/chat-bot/static/js/2.7915f177.chunk.js",
-    "static/js/2.7915f177.chunk.js.map": "/nimble/chat-bot/static/js/2.7915f177.chunk.js.map",
-    "index.html": "/nimble/chat-bot/index.html",
-    "precache-manifest.8f537509193fc2055f386842f78a648a.js": "/nimble/chat-bot/precache-manifest.8f537509193fc2055f386842f78a648a.js",
-    "service-worker.js": "/nimble/chat-bot/service-worker.js",
-    "static/js/2.7915f177.chunk.js.LICENSE.txt": "/nimble/chat-bot/static/js/2.7915f177.chunk.js.LICENSE.txt"
+    "main.js": "/chat-bot/static/js/main.c7edfcc4.chunk.js",
+    "main.js.map": "/chat-bot/static/js/main.c7edfcc4.chunk.js.map",
+    "runtime-main.js": "/chat-bot/static/js/runtime-main.5a9b979d.js",
+    "runtime-main.js.map": "/chat-bot/static/js/runtime-main.5a9b979d.js.map",
+    "static/js/2.55de0ab5.chunk.js": "/chat-bot/static/js/2.55de0ab5.chunk.js",
+    "static/js/2.55de0ab5.chunk.js.map": "/chat-bot/static/js/2.55de0ab5.chunk.js.map",
+    "index.html": "/chat-bot/index.html",
+    "precache-manifest.eac277ec2f72ee05dabe569435675a9f.js": "/chat-bot/precache-manifest.eac277ec2f72ee05dabe569435675a9f.js",
+    "service-worker.js": "/chat-bot/service-worker.js",
+    "static/js/2.55de0ab5.chunk.js.LICENSE.txt": "/chat-bot/static/js/2.55de0ab5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.37c66366.js",
-    "static/js/2.7915f177.chunk.js",
-    "static/js/main.99588357.chunk.js"
+    "static/js/runtime-main.5a9b979d.js",
+    "static/js/2.55de0ab5.chunk.js",
+    "static/js/main.c7edfcc4.chunk.js"
   ]
 }
