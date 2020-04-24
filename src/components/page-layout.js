@@ -16,7 +16,7 @@ const PageLayout = ({ children }) => {
         <PageHeader />
         {children}
         {!startChat && <ChatButton startChat={setStartChat} />}
-        {startChat && <ChatbotContainer hideChat={setStartChat} />}
+        <ChatbotContainer hideChat={startChat} controlChat={setStartChat} />
       </Box>
     </Grommet>
   );

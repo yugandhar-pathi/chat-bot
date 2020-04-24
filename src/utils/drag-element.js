@@ -15,6 +15,7 @@ export default function dragElement(elmnt) {
   }
 
   function dragMouseDown(e) {
+    console.log('on Mouse down');
     e = e || window.event;
     e.preventDefault();
     // get the mouse cursor position at startup:
@@ -34,8 +35,16 @@ export default function dragElement(elmnt) {
     pos3 = e.clientX;
     pos4 = e.clientY;
     // set the element's new position:
-    elmnt.style.top = elmnt.offsetTop - pos2 + 'px';
-    elmnt.style.left = elmnt.offsetLeft - pos1 + 'px';
+    let newTop = elmnt.offsetTop - pos2;
+    let newLeft = elmnt.offsetLeft - pos1;
+    if (newTop > 0) {
+      elmnt.style.top = newTop + 'px';
+    }
+    if (newLeft > 0) {
+      elmnt.style.left = newLeft + 'px';
+    }
+    elmnt.style.bottom = null;
+    elmnt.style.right = null;
   }
 
   function closeDragElement() {
