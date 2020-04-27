@@ -1,9 +1,8 @@
 import React from 'react';
-import { Box, Image, Text } from 'grommet';
+import { Text } from 'grommet';
 import { Link } from 'react-router-dom';
 import { Pan } from 'grommet-icons';
 
-import ChatBotSummary from '../images/chatbot-summary.png';
 import { ListItem } from '../components';
 
 const DetailsPage = () => {
@@ -48,16 +47,6 @@ const DetailsPage = () => {
         </ListItem>
       </ul>
       <Link to='/'>Back to Home Page</Link>
-
-      <Text size='xlarge' weight='bold' margin={{ top: 'medium' }}>
-        I would like to just see Chat UI:
-      </Text>
-      <ul>
-        <ListItem>Here is how it looks ....</ListItem>
-      </ul>
-      <Box height='medium' width='xlarge'>
-        <Image fill src={ChatBotSummary} />
-      </Box>
 
       <Text size='xlarge' weight='bold' margin={{ top: 'medium' }}>
         What else can I test?

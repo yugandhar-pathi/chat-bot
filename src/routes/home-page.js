@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, Markdown, Box, Image } from 'grommet';
 import { Link } from 'react-router-dom';
 import ChatBotError from '../images/chatbot-error.png';
+import ChatBotSummary from '../images/chatbot-summary.png';
 
 import { ListItem } from '../components';
 
@@ -28,6 +29,16 @@ const HomePage = () => {
       </Box>
 
       <Markdown>{markdownContent}</Markdown>
+
+      <Text size='xlarge' weight='bold' margin={{ top: 'medium' }}>
+        I would like to just see Chat UI:
+      </Text>
+      <ul>
+        <ListItem>Here is how it looks ....</ListItem>
+      </ul>
+      <Box height='medium' width='xlarge'>
+        <Image fill src={ChatBotSummary} />
+      </Box>
 
       <Box margin={{ top: 'small' }}>
         <Text size='xlarge' weight='bold'>
