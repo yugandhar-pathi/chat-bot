@@ -1,6 +1,9 @@
 import React from 'react';
-import { Text, Markdown, Box } from 'grommet';
+import { Text, Markdown, Box, Image } from 'grommet';
 import { Link } from 'react-router-dom';
+import ChatBotError from '../images/chatbot-error.png';
+
+import { ListItem } from '../components';
 
 const markdownContent = `
 
@@ -25,6 +28,24 @@ const HomePage = () => {
       </Box>
 
       <Markdown>{markdownContent}</Markdown>
+
+      <Box margin={{ top: 'small' }}>
+        <Text size='xlarge' weight='bold'>
+          What if I get Error in the ChatBot?
+        </Text>
+        <ul>
+          <ListItem>
+            We are in prototype phase you may see some errors in chatbot.
+          </ListItem>
+          <ListItem>How do I bring chatbot back to initial state?</ListItem>
+          <ListItem>
+            Click <a href={process.env.PUBLIC_URL}>Refresh</a>
+          </ListItem>
+        </ul>
+        <Box height='medium' width='medium'>
+          <Image fill src={ChatBotError} />
+        </Box>
+      </Box>
     </>
   );
 };

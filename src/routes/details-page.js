@@ -1,21 +1,16 @@
 import React from 'react';
-import { Text } from 'grommet';
+import { Box, Image, Text } from 'grommet';
 import { Link } from 'react-router-dom';
 import { Pan } from 'grommet-icons';
 
-const ListItem = ({ children }) => {
-  return (
-    <li>
-      <Text>{children}</Text>
-    </li>
-  );
-};
+import ChatBotSummary from '../images/chatbot-summary.png';
+import { ListItem } from '../components';
 
 const DetailsPage = () => {
   return (
     <>
       <Text size='xlarge' weight='bold'>
-        Steps:
+        Test Steps:
       </Text>
       <ul>
         <ListItem>Click on Chat Now button on bottom right.</ListItem>
@@ -47,10 +42,22 @@ const DetailsPage = () => {
         </ListItem>
         <ListItem>How do I bring chatbot back to initial state?.</ListItem>
         <ListItem>
-          Just refresh your page!! I will re-initialize your chatbot.
+          Just refresh your page!! Click
+          <a href={process.env.PUBLIC_URL}> Here.</a> I will re-initialize your
+          chatbot.
         </ListItem>
       </ul>
       <Link to='/'>Back to Home Page</Link>
+
+      <Text size='xlarge' weight='bold' margin={{ top: 'medium' }}>
+        I would like to just see Chat UI:
+      </Text>
+      <ul>
+        <ListItem>Here is how it looks ....</ListItem>
+      </ul>
+      <Box height='medium' width='xlarge'>
+        <Image fill src={ChatBotSummary} />
+      </Box>
 
       <Text size='xlarge' weight='bold' margin={{ top: 'medium' }}>
         What else can I test?
